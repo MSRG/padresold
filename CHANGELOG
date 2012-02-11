@@ -12,33 +12,32 @@ New features
   an external user-provisioned database.
 - Monitor displays cleaner broker and client names.
 - Monitor supports tracing of messages.
-- Composite subscription can support subexpressions in both the left and right 
+- Composite subscription can support subexpressions in both the left and right
+  hand-side
 
 Architectural changes
 - Communication layer can support pluggable protocols.
 - Broker and client URI formats are generalized for pluggable protocols.
 - More robust parsing of message formats based on a JavaCC parser.
 - More flexible configuration settings.
-- Client is easier to extend and process publications.
+- Client is easier to extend and it is easier to handle notifications.
 - Client now supports a pluggable command handler.
 
 Demos
 - Stock quote
 - Web client
-- Historic
-- Workflow
+- Historic data query
 - Failure detector and monitor
-- Fixed cycles
-- Dynamic cycles
+- Fixed and dynamic cycles
 
 Performance enhancements
 - Faster and more robust test framework based on dependency injection pattern.
 - Faster subscription covering algorithm using a more light-weight covering 
   data structure.
-- Faster publication forwarding by pruning search space.
+- Faster publication forwarding (resolved performance issue in Rete matcher/router).
 
 
 --------------------------------------------------------------------
-Middleware Systems Research Group
+Middleware Systems Research Group (msrg.org)
 University of Toronto
 2012-02-11
