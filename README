@@ -15,6 +15,7 @@ Files and Directories:
 ---------------------
 1. README: this file.
 2. INSTALL: installation instructions.
+2. ISSUES: open issues.
 3. COPYRIGHT: copyright notice.
 4. install.sh: script to install PADRES in the system.
 5. bin/: scripts to run PADRES components. 
